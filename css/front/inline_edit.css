@@ -1,0 +1,1001 @@
+.inline_edit
+{
+	position:absolute; 
+	top: 0px; 
+	left: 0px; 
+	z-index: 99; 
+	background-color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	padding: 5px 5px 3px 5px;
+	cursor:pointer;
+	border: 2px solid green;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.inline_edit span
+{
+	color:#000000;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.inline_edit img
+{
+	padding: 2px 2px 2px 2px;
+	float:left;
+}
+
+#inline_edit_popup
+{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-color:#1C2833;
+	/*text-align:center;*/
+	color:#1C2833;
+}
+
+
+/*----------------------------------------------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+-------------- BACK CSS IN .UI-DIALOG ----------------------------
+------------------------------------------------------------------
+------------------------------------------------------------------
+----------------------------------------------------------------*/
+
+.ui-dialog #superdiv
+{
+	text-align: left;
+	margin: 0px auto;
+	margin-top: 0px;
+	padding: 30px 0px 0px 0px;
+	width:1014px;
+	min-height:600px;
+}
+
+.ui-dialog #content {
+	float:right;
+	width:754px;
+	/*padding: 10px 12px 5px 2px;*/
+    }
+.ui-dialog #sidebar {
+    float:left;
+    width:248px;
+	/*padding: 10px 0px 5px 12px;*/
+}
+.ui-dialog #footer {
+	height:40px;
+	clear: both;
+	font-size: 12px;
+	text-align: left;
+	padding: 10px 10px 0px 10px;
+	margin: 0px 0px 0px 0px;
+	background-color:#666666;
+	width: 100%;
+}
+
+.ui-dialog #header{
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 36px;
+	height:36px;
+	background-color:#FFFFFF;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 24px;
+	background-image: url('header.gif');
+	background-repeat:no-repeat;
+}
+
+.ui-dialog #nav{
+	margin-left: auto ;
+  	margin-right: auto ;
+	width:999px;
+	padding: 0px 0px 0px 0px;
+	color:#000000;
+}
+
+/*
+--------------------CONTENT OPMAAK-----------------------------------
+*/
+
+.ui-dialog li
+{
+	padding-bottom: 4px;
+}
+
+.ui-dialog .div_with_border
+{
+	border: 4px solid #5F7A72;
+	padding: 4px;
+}
+
+.ui-dialog div.divleft{
+   	float:left;
+	text-align:left;
+	width:auto;
+	padding: 0px 0px 0px  0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.ui-dialog div.divright{
+   	float:right;
+	text-align:right;
+	width:auto;
+	padding: 0px 0px 0px  0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.ui-dialog div.divmiddle{
+	text-align:center;
+	width:auto;
+	padding: 0px 0px 0px  0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.ui-dialog img.icon{
+	margin: 2px 2px 2px 0px;
+	float:none;
+}
+
+.ui-dialog td{
+	vertical-align:middle;
+}
+.ui-dialog div.iconcontainer
+{
+text-align:left;
+height: 20px;
+padding:0px
+}
+
+.ui-dialog div.iconcontainer_noborder
+{
+text-align:left;
+border-bottom: 0px;
+height: 20px;
+padding:0px;
+overflow:
+}
+
+
+
+.ui-dialog div.contentheader
+{
+	padding: 0px 0px 0px 10px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	color:#FFFFFF;
+	height:26px;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+
+.ui-dialog div.contentcontent
+{
+	background-color:#FFFFFF;
+	border-top: solid 6px #5F7A72;
+	border-bottom:3px solid #5F7A72;
+	border-left:1px solid #5F7A72;
+	border-right:1px solid #5F7A72;
+	padding: 12px 8px 16px 8px;
+	margin-bottom: 16px;
+}
+
+.ui-dialog span.back_lang_selector
+{
+	padding: 3px 5px 3px 5px;
+	margin-right: 2px ;
+	color: #5F7A72;
+	text-decoration:none;
+	cursor:pointer;
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+
+}
+
+.ui-dialog span.back_lang_selector_selected
+{
+	padding: 3px 5px 3px 5px;
+	margin-right: 2px ;
+	color: #FFFFFF;
+	text-decoration:none;
+	cursor:pointer;
+	font-size:12px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+.ui-dialog span.form_lang_selector_selected
+{
+	height:16px;
+	vertical-align:middle;
+	padding:2px 4px 2px 4px;
+	margin: 2px 2px 0px 2px;
+	line-height:16px;
+	font-size: 9px;
+	color:#CCCCCC;
+	background-color: #666666;
+}
+
+.ui-dialog span.form_lang_selector
+{
+	cursor:pointer;
+	vertical-align:middle;
+	padding:2px 4px 2px 4px;
+	margin: 2px 2px 0px 2px;
+	line-height:16px;
+	font-size: 9px;
+	color:#666666;
+	background-color: #CCCCCC;
+}
+
+.ui-dialog div.splitter
+{
+ 	height:20px;
+	/*background-image: url(bg_splitter.gif);*/
+	/*border-bottom: 1px solid #CCCCCC;*/
+	clear:both;
+	line-height: 20px;
+	padding-left: 0px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	background-color:#CCCCCC;
+}
+
+.ui-dialog div.splitter span
+{
+	letter-spacing: 1px;
+	/*font-size: 13px;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #5F7A72; 
+	/*background-color:#FFFFFF;*/
+	padding-left: 0px;
+	padding-right: 40px;
+	/*border-bottom: 1px solid #DDDDDD;*/
+}
+
+.ui-dialog div.splitter_light
+{
+	height: 20px;
+	line-height: 20px;
+	margin: 4px 0px 4px 0px;
+	font-size:12px;
+	border-bottom: 1px solid #CCCCCC;
+	color: #5F7A72;
+}
+
+.ui-dialog hr{
+	border: 0;
+	color: #C9D5D6;
+	background-color: #5F7A72;
+	height: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding:0px;
+	line-height: 1px;
+}
+
+/*savebutton die in een contentheader staat*/
+.ui-dialog div.savebutton
+{
+	border: 2px solid #5F7A72;
+	background-color: #88A688;
+	padding: 4px 12px 4px 12px;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	/*width: 100px;*/
+	text-align:center;
+}
+
+.ui-dialog .smallgray
+{
+	color:#666666; 
+	font-size: 9px;
+}
+/*
+------------------END CONTENT OPMAAK---------------------------------
+*/
+
+/*
+-------------------FORMS---------------------------------------------
+*/
+.ui-dialog label{
+	padding-top: 7px;
+	font-size:11px;
+	width: 150px;
+	clear: both;
+	float: left;
+	color: #1C2833;
+	overflow: hidden;
+	height: 16px;
+}
+
+.ui-dialog input, .ui-dialog textarea, .ui-dialog select{
+	width: 575px;
+	border: 1px solid #CCCCCC;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 1px 2px 1px;
+	color:#1C2833;
+	font-size:12px
+}
+
+.ui-dialog input.no_standard_width, .ui-dialog textarea.no_standard_width, .ui-dialog select.no_standard_width
+{
+	width:auto;
+}
+
+.ui-dialog input.smallinput, .ui-dialog select.smallinput
+{
+	padding: 0px 0px 0px 0px;
+	margin: 2px 0px 2px 0px;
+	width: 150px;
+	border: 1px solid #CCCCCC;
+	
+}
+.ui-dialog input[type="checkbox"]
+{
+	margin:6px 500px 5px 0px;
+}
+
+.ui-dialog input[type="radio"]
+{
+	width: 10px;
+	margin:6px 0px 5px 0px;
+}
+/*BUTTON*/
+.ui-dialog input[type="submit"]
+{
+width:auto;
+font-weight:bold;
+padding: 4px 12px 4px 12px;
+margin: 2px 0px 0px 0px;
+color:green;
+font-size:11px;
+background-color:#88A688;
+border:2px solid #5F7A72;
+cursor:pointer;
+color:#FFFFFF;
+}
+.ui-dialog input[type="button"]
+{
+width:auto;
+font-weight:bold;
+padding: 4px 12px 4px 12px;
+margin: 2px 0px 0px 0px;
+color:green;
+font-size:11px;
+background-color:#88A688;
+border:2px solid #5F7A72;
+cursor:pointer;
+color:#FFFFFF;
+}
+.ui-dialog input[type="reset"]
+{
+width:auto;
+font-weight:bold;
+margin: 2px 0px 0px 0px;
+padding: 4px 12px 4px 12px;
+color:green;
+font-size:11px;
+background-color:#88A688;
+border:2px solid #5F7A72;
+cursor:pointer;
+color:#FFFFFF;
+}
+.ui-dialog input[type="checkbox"]
+{
+border-width:0px;
+width:14px;
+}
+
+.ui-dialog input.nowidth, .ui-dialog select.nowidth
+{
+	width:auto;
+}
+
+.ui-dialog .field-dromdown-header{
+	background-color:#CCCCCC;
+	color:#5F7A72;
+	font-size:11px;
+	height: 22px;
+	line-height: 22px; 
+	padding-left:5px; 
+	padding-right:5px; 
+	padding-top:0px;
+	margin-bottom:5px;
+}
+
+.ui-dialog .wordlist
+{
+	width: 575px;
+	border: 1px solid #CCCCCC;
+	background-color: #DDDDDD;
+	padding: 2px 2px 2px 2px;
+	margin: 2px 1px 2px 1px;
+	height: 100px;
+	overflow:scroll;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+}
+
+.ui-dialog .wordlist div
+{
+	float:left;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	margin: 2px;
+	padding: 2px 4px 2px 6px;
+	color: #666666;
+	height: 16px;
+	vertical-align:middle;
+}
+.ui-dialog .wordlist div div
+{
+	border: 0px;
+	padding: 2px 0px 0px 0px;
+	margin: 0px;
+	vertical-align:top;
+	float: left;
+}
+
+.ui-dialog .wordlist div img
+{
+	margin-left: 4px;
+	cursor:pointer;
+	margin-top: 2px;
+}
+/*
+------------------END FORMS------------------------------------------
+*/
+
+/* TREEVIEW CLASSES
+======================================================================================================================*/
+.ui-dialog .treeview
+{
+padding-top: 4px;
+}
+.ui-dialog .treeview div
+{
+border: 1 solid #FFFFFF;
+}
+.ui-dialog .treeview ul{ /*CSS for Simple Tree Menu*/
+padding: 0px 0px 0px 0px;
+}
+
+.ui-dialog .treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+background: #FFFFFF url(icon/list.gif) no-repeat left center;
+list-style-type: none;
+padding-left: 18px;
+padding-bottom: 0px;
+vertical-align:middle;
+line-height: 16px;
+}
+
+.ui-dialog .treeview li span
+{
+text-decoration: none;
+color: #1C2833;
+padding: 0px;
+height: 100%;
+line-height: 16px;
+}
+
+
+.ui-dialog .treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+background: #FFFFFF url(icon/plus.gif) no-repeat left 2px;
+cursor: hand;
+cursor: pointer;
+vertical-align:middle;
+}
+
+.ui-dialog .treeview li.submenu a:link, .ui-dialog .treeview li.submenu a:visited, .ui-dialog .treeview li.submenu a:active
+{
+text-decoration:none;
+color:#1C2833;
+}
+.ui-dialog .treeview li.submenu a:hover
+{
+text-decoration:none;
+color:#5F7A72;
+}
+
+
+.ui-dialog .treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+padding: 0px 0px 0px 0px;
+}
+
+.ui-dialog .treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+
+/* END TREEVIEW CLASSES
+======================================================================================================================*/
+
+/* DATAGRID CLASSES !!!!!
+==================================================================================================================== */
+.ui-dialog div.datagrid
+{
+	clear:both;
+	border: 0px solid #5F7A72;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+.ui-dialog div.datagrid_title
+{
+	text-align:left;
+	height: 20px;
+	padding-left: 2px;
+	font-weight:bold;
+	vertical-align:top;
+	line-height:20px;
+	background-color:#CCCCCC;
+	clear:both;
+}
+
+.ui-dialog span.datagrid_title
+{
+	text-align:left;
+	padding-right: 10px;
+	padding-left: 2px;
+	font-weight: bold;
+	vertical-align: middle;
+	line-height: 22px;
+	color:#5F7A72;
+}
+.ui-dialog td.datagrid_field_header
+{
+	text-align:left;
+	background-color: #CCCCCC;
+	border-top:0px solid #666666;
+	border-bottom:3px solid #5F7A72;
+	height: 24px;
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align:middle;
+}
+
+.ui-dialog td.datagrid_field_header_left
+{
+	text-align:left;
+	background-color: #CCCCCC;
+	border-top:0px solid #666666;
+	border-bottom:3px solid #5F7A72;
+	border-left: 0px solid #666666;
+	height: 24px;
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align:middle;
+}
+
+.ui-dialog td.datagrid_field_header_right
+{
+	text-align:left;
+	background-color: #CCCCCC;
+	border-top:0px solid #666666;
+	border-bottom:3px solid #5F7A72;
+	border-right: 0px solid #666666;
+	height: 24px;
+	padding-left: 2px;
+	padding-right: 2px;
+	vertical-align:middle;
+}
+
+.ui-dialog td.datagrid_field_header a:hover, .ui-dialog td.datagrid_field_header a:link, .ui-dialog td.datagrid_field_header a:active, .ui-dialog td.datagrid_field_header a:visited, .ui-dialog td.datagrid_field_header_left a:hover, .ui-dialog td.datagrid_field_header_left a:link, .ui-dialog td.datagrid_field_header_left a:active, .ui-dialog td.datagrid_field_header_left a:visited, .ui-dialog td.datagrid_field_header_right a:hover, .ui-dialog td.datagrid_field_header_right a:link, .ui-dialog td.datagrid_field_header_right a:active, .ui-dialog td.datagrid_field_header_right a:visited
+{
+	color: #1C2833;
+	font-size:11px;
+	text-decoration:none;
+} 
+
+
+.ui-dialog tr.datagrid_field_data_1
+{
+	height: 26px;
+	width: 500px;
+	overflow:hidden;
+}
+
+.ui-dialog tr.datagrid_field_data_1 td
+{
+	background-color:#FFFFFF;
+	padding-right: 5px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	border-bottom:1px solid #C9D5D6;
+	padding: 0px 3px 0px 3px;
+	height: 26px;
+	overflow:hidden;
+}
+
+.ui-dialog tr.datagrid_field_data_2
+{
+	height: 26px;
+	width: 500px;
+	overflow:hidden;
+}
+
+.ui-dialog tr.datagrid_field_data_2 td
+{
+	background-color:#FFFFFF;
+	color:#006699;
+	padding-right: 5px;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	border-bottom:1px solid #C9D5D6;
+	padding: 0px 3px 0px 3px;
+	height: 26px;
+	overflow:hidden;
+}
+
+.ui-dialog td.datagrid_thumb_left
+{
+	width:106;
+}
+
+.ui-dialog td.datagrid_thumb
+{
+	width:126;
+}
+
+.ui-dialog div.dg_pagenum_current
+{
+	height:16px;
+	vertical-align:middle;
+	padding:0px 4px 0px 4px;
+	margin: 2px 2px 0px 2px;
+	float:left;
+	line-height:16px;
+	font-size: 9px;
+	color:#CCCCCC;
+	background-color: #666666;
+}
+
+.ui-dialog div.dg_pagenum
+{
+	cursor:pointer;
+	vertical-align:middle;
+	padding:0px 4px 0px 4px;
+	margin: 2px 2px 0px 2px;
+	float:left;
+	line-height:16px;
+	font-size: 9px;
+	color:#666666;
+	background-color: #CCCCCC;
+}
+
+/* END DATAGRID CLASSES !!!!!
+==================================================================================================================== */
+
+/*
+	--------------------------------------------------SPECIAL--------------------------------------------------------*/
+.ui-dialog #loader_cover {
+display:none;
+position:absolute;
+left:0px;
+top:0px;
+width:200px;
+height:300px;
+background:#AAAAAA;
+filter:alpha(Opacity=60);
+opacity:0.6;
+-moz-opacity:0.6;
+-khtml-opacity:0.6;
+text-align:center;
+vertical-align:middle;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+}
+/*
+-----------------------------------------END SPECIAL------------------------------------------------
+*/
+/*
+------------------------RUNNING TEXT--------------------------------------------
+*/
+
+.ui-dialog a:link, .ui-dialog a:visited, .ui-dialog a:active
+{
+	color:#5F7A72;
+	text-decoration:none;
+}
+
+.ui-dialog a:hover
+{
+	color:#5F7A72;
+	text-decoration:underline;
+}
+
+.ui-dialog div.search_result
+{
+	line-height: 20px;
+	cursor: pointer;
+	color: #1C2833;
+}
+
+.ui-dialog div.search_result_noedit
+{
+	margin-top: 4px;
+	border-bottom: 1px solid #006699;
+	padding-bottom: 4px;
+	color: #666666;
+}
+
+/*
+-------------------------END RUNNING TEXT----------------------------------------
+*/
+
+/* DATE PICKER CLASSES !!!!!
+==================================================================================================================== */
+
+/* the div that holds the date picker calendar */
+.ui-dialog .dpDiv {
+	}
+
+
+/* the table (within the div) that holds the date picker calendar */
+.ui-dialog .dpTable {
+	font-family: Verdana;
+	font-size: 10px;
+	text-align: center;
+	color: #28363E;
+	background-color: #EEEEEE;
+	border: 1px solid #28363E;
+	}
+
+
+/* a table row that holds date numbers (either blank or 1-31) */
+.ui-dialog .dpTR {
+	}
+
+
+/* the top table row that holds the month, year, and forward/backward buttons */
+.ui-dialog .dpTitleTR {
+	}
+
+
+/* the second table row, that holds the names of days of the week (Mo, Tu, We, etc.) */
+.ui-dialog .dpDayTR {
+	}
+
+
+/* the bottom table row, that has the "This Month" and "Close" buttons */
+.ui-dialog .dpTodayButtonTR {
+	}
+
+
+/* a table cell that holds a date number (either blank or 1-31) */
+.ui-dialog .dpTD {
+	width:22px;
+	}
+
+
+/* a table cell that holds a highlighted day (usually either today's date or the current date field value) */
+.ui-dialog .dpDayHighlightTD {
+	background-color: #CCCCCC;
+	}
+
+
+/* the date number table cell that the mouse pointer is currently over (you can use contrasting colors to make it apparent which cell is being hovered over) */
+.ui-dialog .dpTDHover {
+	background-color: #28363E;
+	cursor: pointer;
+	color: white;
+	}
+
+
+/* the table cell that holds the name of the month and the year */
+.ui-dialog .dpTitleTD {
+	}
+
+
+/* a table cell that holds one of the forward/backward buttons */
+.ui-dialog .dpButtonTD {
+	}
+
+
+/* the table cell that holds the "This Month" or "Close" button at the bottom */
+.ui-dialog .dpTodayButtonTD {
+	}
+
+
+/* a table cell that holds the names of days of the week (Mo, Tu, We, etc.) */
+.ui-dialog .dpDayTD {
+	background-color: #CCCCCC;
+	}
+
+
+/* additional style information for the text that indicates the month and year */
+.ui-dialog .dpTitleText {
+	font-size: 11px;
+	font-weight: bold;
+	}
+
+
+/* additional style information for the cell that holds a highlighted day (usually either today's date or the current date field value) */ 
+.ui-dialog .dpDayHighlight {
+	color: 4060ff;
+	font-weight: bold;
+	}
+
+
+/* the forward/backward buttons at the top */
+.ui-dialog .dpButton {
+	font-family: "Verdana";
+	border:1px solid #28363E;
+	background-color:#EEEEEE;
+	color:#28363E;
+	font-size: 11px;
+	}
+
+
+/* the "This Month" and "Close" buttons at the bottom */
+.ui-dialog .dpTodayButton {
+	font-family: "Verdana";
+	border:1px solid #28363E;
+	background-color:#EEEEEE;
+	color:#28363E;
+	font-size: 11px;
+	margin-top: 4px;
+	}
+	
+/* END DATE PICKER CLASSES !!!!!
+==================================================================================================================== */
+
+/*TABLE CLASSES*/
+.ui-dialog td.table_bold
+{
+	font-weight:bold;
+}
+
+.ui-dialog td.table_header
+{
+	background-color:#FFFFFF;
+	font-size:10px;
+	font-weight:normal;
+}
+
+.ui-dialog td.table_header_bold
+{
+	background-color:#FFFFFF;
+	font-size:10px;
+	font-weight:bold;
+}
+
+/* MULTIUPLOAD CLASSES
+=====================================================================================================================*/
+.ui-dialog .progressWrapper {
+	width: 100%;
+	overflow: hidden;
+	float:left;
+}
+
+.ui-dialog .progressContainer {
+	margin: 4px 0px 0px 0px;
+	padding: 4px;
+	border: solid 1px #666666;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+/* Message */
+.ui-dialog .message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #666666;
+	background-color: #DDDDDD;
+	overflow: hidden;
+}
+/* Error */
+.ui-dialog .red {
+	border: solid 1px red;
+	background-color: #DDDDDD;
+}
+
+/* Current */
+.ui-dialog .green {
+	border: solid 1px green;
+	background-color: #DDDDDD;
+}
+
+/* Complete */
+.ui-dialog .blue {
+	border: solid 1px #666666;
+	background-color: #DDDDDD;
+}
+
+.ui-dialog .progressName {
+	font-weight: bold;
+	color: #1C2833;
+	width: 323px;
+	height: 20px;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.ui-dialog .progressBarInProgress,
+.ui-dialog .progressBarComplete,
+.ui-dialog .progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 8px;
+	background-color: #5F7A72;
+	margin-top: 2px;
+}
+
+.ui-dialog .progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.ui-dialog .progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.ui-dialog .progressBarStatus {
+	margin-top: 2px;
+	width: 337px;
+	font-size: 7pt;
+	font-family: Arial;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.ui-dialog a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 14px;
+	width: 14px;
+	background-image: url(cancelbutton.gif);
+	background-repeat: no-repeat;
+	background-position: -14px 0px;
+	float: right;
+}
+
+.ui-dialog a.progressCancel:hover {
+	background-position: 0px 0px;
+}
+
+
+/* END MULTIUPLOAD CLASSES
+==================================================================================================*/
+
+
+/*---------------------------------PAGE SELECT BOX CLASSES---------------------------------------*/
+.ui-dialog .pageselect_veld
+{
+	width: 400px; 
+	border: 1px solid #006699; 
+	float:left; 
+	background-color: #EEEEEE;
+	padding: 3px 2px 3px 2px;
+	margin: 1px 1px 1px 1px;
+}
+
+.ui-dialog .pageselect_div
+{
+	display: none;
+	height: 300px; 
+	width: 400px; 
+	overflow:scroll; 
+	position:relative;
+	background-color:#FFFFFF;
+	border: 2px solid #C9D5D6;
+}
+
+.ui-dialog .pageselect_itemdiv
+{
+	padding: 4px; 
+	border-bottom: 1px solid #DEE6E7;
+}

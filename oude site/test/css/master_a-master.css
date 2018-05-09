@@ -1,0 +1,184 @@
+#u506
+{
+	position: relative;
+}
+
+#u510
+{
+	position: relative;
+	background: transparent url("../images/making%20of%20small.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u510:hover
+{
+	background: transparent url("../images/making%20of%20small2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u510:active
+{
+	background: transparent url("../images/making%20of%20small3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u510.MuseLinkActive
+{
+	background: transparent url("../images/making%20of%20small4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u511
+{
+	position: relative;
+	background: transparent url("../images/small%20contact.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u511:hover
+{
+	background: transparent url("../images/small%20contact2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u511:active
+{
+	background: transparent url("../images/small%20contact3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u511.MuseLinkActive
+{
+	background: transparent url("../images/small%20contact4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u512
+{
+	position: relative;
+	background: transparent url("../images/small%20music%20lyrics.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u512:hover
+{
+	background: transparent url("../images/small%20music%20lyrics2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u512:active
+{
+	background: transparent url("../images/small%20music%20lyrics3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u512.MuseLinkActive
+{
+	background: transparent url("../images/small%20music%20lyrics4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u513
+{
+	position: relative;
+	background: transparent url("../images/small%20video.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u513:hover
+{
+	background: transparent url("../images/small%20video2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u513:active
+{
+	background: transparent url("../images/small%20video3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u513.MuseLinkActive
+{
+	background: transparent url("../images/small%20video4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u514
+{
+	position: relative;
+	background: transparent url("../images/small%20live.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u514:hover
+{
+	background: transparent url("../images/small%20live2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u514:active
+{
+	background: transparent url("../images/small%20live3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u514.MuseLinkActive
+{
+	background: transparent url("../images/small%20live4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u515
+{
+	position: relative;
+	background: transparent url("../images/small%20store.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u515:hover
+{
+	background: transparent url("../images/small%20store2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u515:active
+{
+	background: transparent url("../images/small%20store3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u515.MuseLinkActive
+{
+	background: transparent url("../images/small%20store4.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u764
+{
+	-webkit-transform: matrix(0.9976,-0.0698,0.0698,0.9976,-2,12);
+	-ms-transform: matrix(0.9976,-0.0698,0.0698,0.9976,-2,12);
+	-o-transform: matrix(0.9976,-0.0698,0.0698,0.9976,-2,12);
+	transform: matrix(0.9976,-0.0698,0.0698,0.9976,-2,12);
+	position: relative;
+	background: transparent url("../images/handw%20little%20dots.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u764:hover
+{
+	background: transparent url("../images/handw%20little%20dots2.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u764:active
+{
+	background: transparent url("../images/handw%20little%20dots3.png") no-repeat left top;
+	background-size: contain !important;
+}
+
+#u764.MuseLinkActive
+{
+	background: transparent url("../images/handw%20little%20dots4.png") no-repeat left top;
+	background-size: contain !important;
+}
+

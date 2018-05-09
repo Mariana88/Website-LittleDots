@@ -1,0 +1,84 @@
+
+/*the main div*/
+.blicsmPopup
+{
+	
+}
+
+.blicsmPopup_arrow
+{
+	background-position: 10px 0px;
+	background-repeat:no-repeat;
+	height: 7px;
+}
+
+.blicsmPopup_content
+{
+	border-radius: 2px;
+	padding: 15px;
+	box-shadow: 3px 3px 2px #666666;
+}
+
+.blicsmPopup_content_inner
+{
+	
+}
+
+.blicsmPopup_buttons
+{
+	/*border-top: 1px dotted #FFFFFF;*/
+	padding-top: 8px;
+	height: 28px;
+	text-align:center;
+}
+
+/*---------------------COLOR CLASSES*/
+/*standard*/
+.blicsmPopup.standard .blicsmPopup_arrow
+{
+	background-image: url('popupCornerStandard.png');
+}
+
+.blicsmPopup.standard .blicsmPopup_content
+{
+	background-color: #EEEEEE;
+	border: 1px solid #DDDDDD;
+}
+
+.blicsmPopup.standard .blicsmPopup_buttons
+{
+	
+}
+
+/*dark*/
+.blicsmPopup.dark .blicsmPopup_arrow
+{
+	background-image: url('popupCornerDark.png');
+}
+
+.blicsmPopup.dark .blicsmPopup_content
+{
+	background-color: #388DBF;
+	color: #FFFFFF;
+}
+
+.blicsmPopup.dark .blicsmPopup_buttons
+{
+	
+}
+
+/*fel*/
+.blicsmPopup.fel .blicsmPopup_arrow
+{
+	background-image: url('popupCornerFel.png');
+}
+
+.blicsmPopup.fel .blicsmPopup_content
+{
+	background-color: #FBCC33;
+}
+
+.blicsmPopup.fel .blicsmPopup_buttons
+{
+	
+}

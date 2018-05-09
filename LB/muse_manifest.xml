@@ -1,0 +1,15 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="3964944581"/>
+    <file name="index.css" crc="4238968720" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="hot club vlcsnap b-w levels contrast crop logo 250dpi 25x14.jpg" crc="23033224" ref="index"/>
+  </folder>
+  <file name="index.html" crc="51809091" mt="1478871790916" redirect="true"/>
+</manifest>

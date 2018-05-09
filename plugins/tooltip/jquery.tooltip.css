@@ -1,0 +1,13 @@
+#tooltip {
+	position: absolute;
+	z-index: 999999;
+	border: 2px solid #BBBBBB;
+	background-color: #EEEEEE;
+	color: #1C2833;
+	font-size:12px;
+	line-height: 16px;
+	padding: 4px 8px 4px 8px;
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+#tooltip h3, #tooltip div { margin: 0; }

@@ -1,0 +1,248 @@
+/*
+-------------------RESET---------------------------------
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: top;
+	font-size: 100%;
+	line-height: 100%;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	/*list-style: none;*/
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+strong{
+	font-weight:bold;
+}
+
+u{
+	text-decoration:underline;
+}
+
+b{
+	font-weight: bold;
+}
+
+i{
+	font-style:italic:
+}
+
+em{font-style:italic;}
+
+/*
+-------------------END RESET---------------------------------
+*/
+
+@font-face
+{
+	font-family: 'fa';
+	src: url('/font/f.eot');
+	src: url('/font/f.eot?#iefix') format('embedded-opentype'),
+		 url('/font/f.woff') format('woff'),
+		 url('/font/f.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'fa';
+	font-style:italic;
+	src: url('/font/f-i.eot');
+	src: url('/font/f-i.eot?#iefix') format('embedded-opentype'),
+		 url('/font/f-i.woff') format('woff'),
+		 url('/font/f-i.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'fa';
+	font-weight:bold;
+	src: url('/font/f-b.eot');
+	src: url('/font/f-b.eot?#iefix') format('embedded-opentype'),
+		 url('/font/f-b.woff') format('woff'),
+		 url('/font/f-b.ttf') format('truetype');
+}
+
+@font-face
+{
+	font-family: 'fa';
+	font-style:italic;
+	font-weight:bold;
+	src: url('/font/f-bi.eot');
+	src: url('/font/f-bi.eot?#iefix') format('embedded-opentype'),
+		 url('/font/f-bi.woff') format('woff'),
+		 url('/font/zf-bi.ttf') format('truetype');
+}
+
+
+@font-face 
+{
+	font-family: 'hn';
+	font-weight:bold;
+  	src: url('/font/hn-b.eot');
+	src: url('/font/hn-b.eot?#iefix') format('embedded-opentype'),
+		 url('/font/hn-b.woff') format('woff'),
+		 url('/font/hn-b.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'hn';
+	font-style:italic;
+	font-weight:bold;
+	src: url('/font/hn-bi.eot');
+	src: url('/font/hn-bi.eot?#iefix') format('embedded-opentype'),
+		 url('/font/hn-bi.woff') format('woff'),
+		 url('/font/hn-bi.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'hn';
+	font-style:italic;
+	src: url('/font/hn-i.eot');
+	src: url('/font/hn-i.eot?#iefix') format('embedded-opentype'),
+		 url('/font/hn-i.woff') format('woff'),
+		 url('/font/hn-i.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'hn';
+	src: url('/font/hn.eot');
+	src: url('/font/hn.eot?#iefix') format('embedded-opentype'),
+		 url('/font/hn.woff') format('woff'),
+		 url('/font/hn.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ------------------ End @FontFace ------------------------- */
+
+body, p, ul, li, a
+{
+	font-family: hn;
+	line-height:122%;
+	font-size: 16px;
+	color: #000; 
+}
+
+a
+{
+	text-decoration:none;
+}
+
+a:link, a:visited
+{
+	border-bottom: 1px dotted #666;
+	color: #666;
+}
+
+a:hover, a:active
+{
+	border-bottom: 1px dotted #000;
+	color: #000;
+}
+
+a:focus
+{
+	background: none;
+	outline: none;
+}
+
+hr
+{
+	padding:0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	background-color:#004fd2;
+	border:0px;
+	height:2px;
+	clear:both;
+}
+
+.title_xl, .title_l, .title_m
+{
+	font-family: hn, Helvetiva, Arial, sans-serif;
+	color:#000;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 3px;
+	line-height: 110%;
+}
+
+.title_l, .title_m
+
+{
+	font-size:19px;
+}
+
+.title_m
+{
+	font-size:16px;
+}
+
+.text_gray
+{
+	color: #707070; /* GRIJS */
+}
+
+.text_s, .text_s a, .text_s p, .text_s i, .text_s b, 
+.text_s ul, .text_s li, .text_s span
+{
+	font-size:12px;
+}
+
+ul
+{
+	margin: 0 0 0 10px;
+	padding: 0;
+}
+
+li
+{
+ 	margin: 0 0 0 10px;
+	padding: 0;
+	list-style:disc;
+	list-style:outside;
+}
+
+object, img
+{
+	margin:15px 0;
+	text-align:center;
+}

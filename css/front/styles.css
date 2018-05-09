@@ -1,0 +1,615 @@
+/*
+Colors:
+- zwart => tekst, stramine enz... 
+- grijs #9d9d9d => past event
+- groen #d1e094 => BAD Company
+- rood #f39897=> Laboratorium Jan Fabre
+- blauw #bce4fa => Sunlight Under the Roof
+
+*/
+/*
+-------------------RESET---------------------------------
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	vertical-align: top;
+	font-size: 100%;
+	line-height: 140%;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+strong{
+	font-weight:bold;
+}
+
+u{
+	text-decoration:underline;
+}
+
+b{
+	font-weight: bold;
+}
+
+i{
+	font-style:italic;
+}
+
+em{font-style:italic;}
+
+a { text-decoration:none;}
+
+/*
+-------------------END RESET---------------------------------
+
+-------------------@ FONTFACE--------------------------------
+*/
+@font-face {
+    font-family: 'century_schoolbook';
+    src: url('font/century_schoolbook-webfont.eot');
+    src: url('font/century_schoolbook-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/century_schoolbook-webfont.woff') format('woff'),
+         url('font/century_schoolbook-webfont.ttf') format('truetype'),
+         url('font/century_schoolbook-webfont.svg#century_schoolbookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+-------------------ALGEMEEN-------------------------------------*/
+html{overflow-y: scroll;}
+
+body {
+	/*font-family: Verdana, Geneva, sans-serif;*/
+	font-family: "century_schoolbook", "Times New Roman", Times, serif;
+	line-height:130%;
+	font-size: 13px;
+	
+	padding: 0px;
+	margin:0;
+	background-color:#EFEFEF;
+}
+
+.under_construction
+{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 100px;
+	font-family: Arial, "Georgia", Gadget, sans-serif;
+	color: #222222;
+	letter-spacing: -3px;
+}
+.under_construction .small
+{
+	font-size: 13px;
+	letter-spacing: normal;
+}
+
+a:link, a:visited, a:active
+{
+	color: #8F3131;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #000;
+	text-decoration: underline;
+}
+
+h1
+{
+	font-size: 40px;
+}
+
+h2
+{
+	font-size: 22px;
+}
+
+h3
+{
+	font-size: 19px;
+}
+
+h4
+{
+	font-size: 16px;
+}
+
+.shadow
+{
+	box-shadow: 2px 2px 1px rgba(0,0, 0, 0.7);	
+}
+
+/* -----------------------BACKGROUND FOTO---------------*/
+div#background_copyright
+{
+	position: fixed;
+	bottom: 3px;
+	left: 3px;
+	color:#32230C;
+	z-index: -100;
+}
+
+#site_background
+{
+	position: fixed;	
+}
+
+/*----------AUDIO-------------------------------------------*/
+#audio
+{
+	position: fixed;
+	left: -1000px;
+	top: 400px;
+}
+
+#audio_play_button
+{
+	position: fixed;
+	right: 20px;	
+	top: 70px;	
+	width: 70px;
+	height: 40px;
+	cursor: pointer;
+	background-color: #AA0000;
+	-moz-transition: background-color .25s ease-in-out
+	-webkit-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+}
+#audio_play_button:hover
+{
+}
+
+#audio_play_button img
+{
+	width: 70px;
+	height: 40px;
+}
+
+#playlist
+{
+	position: fixed;
+	top: 80px;
+	right: 100px;
+	color: #000;
+	text-align: right;
+	background-color:#EFEFEF;
+}
+
+#playlist .audioplaylist
+{
+	display: none;
+	padding: 0px;
+}
+
+#playlist .audioplaylist div div
+{
+	cursor: pointer;
+	/*background-image: url('img/audioplaysmall.png');*/
+	padding-left: 16px;
+	background-repeat: no-repeat;
+}
+
+#playlist .audioplaylist div div:hover
+{
+	color: #A00;	
+}
+
+.realtrackinfo
+{
+	color: #888888;	
+}
+
+/*---------------------HEADER--------------------------------*/
+#main_header
+{
+	position: fixed;
+	background-color:#EFEFEF;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 101;
+}
+
+#main_header .mainmenu
+{
+	margin: 38px 20px 0px 20px;
+	border-bottom: 1px solid #7C7C7C;
+	z-index: 101;
+}
+
+
+.mainmenu > div
+{
+	width: -moz-calc(42% - 100px);
+	width: -webkit-calc(42% - 100px);
+	width: -o-calc(42% - 100px);
+	width: calc(42% - 100px);
+}
+.mainmenu > div.left{float:left;}
+.mainmenu > div.right{float:right;}
+
+.mainmenu table{width: 100%;}
+
+.mainmenu > div > table td{text-align: center; width: 33%;}
+.mainmenu > div > table td.first{text-align: left;}
+.mainmenu > div > table td.last{text-align: right;}
+
+
+
+.mainmenu a
+{
+	font-size: 15px;
+	-moz-transition: color .25s ease-in-out
+	-webkit-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+}
+
+.mainmenu a:link, .mainmenu a:visited, .mainmenu a:active
+{
+	color: #6C6C6C;
+	text-decoration: none;
+}
+
+.mainmenu a:hover, .mainmenu td.selected a
+{
+	color: #8F3131;	
+	text-decoration: none;
+}
+
+.menu_red_hover
+{
+	display: none;
+	/*opacity: 0;
+    filter: alpha(opacity=0);*/
+	position: fixed;
+	z-index: -50;
+}
+
+/*--------------------SOCIAL-----------------------*/
+#socialicons
+{
+	position: absolute;
+	left: 16px;
+	top: 8px;
+	background-color:#EFEFEF;
+}
+
+#socialicons img
+{
+	margin-right: 5px;
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#socialicons img:hover
+{
+	margin-right: 5px;
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+
+/*-------------------CONTENT-----------------------*/
+#main_content
+{
+	z-index: 100;
+	position: absolute;
+	margin: 0px 20px 200px 20px;
+	min-height: 450px;
+	padding-top: 100px;
+	width: -moz-calc(100% - 40px);
+	width: -webkit-calc(100% - 40px);
+	width: -o-calc(100% - 40px);
+	width: calc(100% - 40px);
+}
+
+.loader_container
+{
+	position: fixed;
+	padding: 20px;
+	width: 40px;
+	height: 5px;
+	z-index: 500;
+}
+
+.content_middle
+{
+	display:none;
+}
+
+/*-------------------HOME-------------------------*/
+#logo
+{
+	position: fixed;
+	background-color:#EFEFEF;
+	z-index: 200;
+	cursor: pointer;
+	display: none;
+}
+
+/*--------------------CONCERTS----------------------*/
+table.concerts td
+{	
+	padding: 4px 20px 4px 0px;
+}
+
+/*---------------MUSIC--------------------------*/
+.music_disc .info
+{
+	width: 300px;
+	float:left;
+}	
+
+.songlist
+{
+	width: 300px; float:left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.songlist .song
+{
+	border-bottom: 1px solid #666;	
+	padding: 5px 0px 5px 0px;
+	max-width: 300px;
+}
+
+.songlist .header
+{
+	cursor: pointer;
+}
+
+.songlist .header .text
+{
+	float: left;
+}
+
+.songlist .header .text .title
+{
+	font-size: 16px;	
+}
+.songlist .header .text .credits
+{
+	color: #666;
+}
+
+.songlist .header .content_track
+{
+	cursor: pointer;
+	float: right;
+	margin-left: 20px;
+}
+
+.songlist .header .content_track img
+{
+	height: 40px;	
+	width: 40px;	
+}
+
+
+.songlist .header:hover
+{
+	color: #8F3131;
+}
+
+.songlist .lyrics
+{
+	display: none;
+	color: #666;
+	padding: 5px 10px 0px 10px;
+	text-align: justify;
+}
+/*---------------------VIDEO------------------------*/
+.inline_video
+{
+	margin: 0px auto;	
+}
+
+/*---------------------BIO en Pers-------------------------*/
+.bios
+{
+	width: -moz-calc(50% - 10px);
+	width: -webkit-calc(50% - 10px);
+	width: -o-calc(50% - 10px);
+	width: calc(50% - 10px);
+	float: left;
+}
+
+.bio
+{
+	border-bottom: 1px solid #666;	
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+}
+
+.bio.last
+{
+/*	border-bottom: none;		
+*/}
+
+.bio .header
+{
+	cursor: pointer;
+	font-size: 16px;	
+	width: 100%;
+}
+
+.bio .header:hover
+{
+	color: #8F3131;
+}
+
+.bio .text
+{
+	display: none;
+	color: #666;
+	padding: 5px 10px 0px 10px;
+	text-align: justify;
+}
+
+.bios .biopic
+{
+	width: 100%;
+	margin-top: 20px;
+}
+
+.pers
+{
+	width: -moz-calc(50% - 10px);
+	width: -webkit-calc(50% - 10px);
+	width: -o-calc(50% - 10px);
+	width: calc(50% - 10px);
+	float: right;
+}
+
+.press
+{
+	border-bottom: 1px solid #666;	
+	padding: 5px 0px 5px 0px;
+	width: 100%;
+	cursor: pointer;
+}
+
+.press .date
+{
+	color: #666;
+	float: left;
+	width: 70px;
+}
+
+.press .title
+{
+	float:left;
+}
+
+.press .source
+{
+	color: #666;
+	clear:both;
+	margin-left: 70px;
+}
+
+.press:hover, .press:hover .source, .press:hover .date
+{
+	color: #8F3131;
+}
+
+/*--------------------------STORE-------------------------------AND HOME NEWS-----------------*/
+.merch
+{
+	width: 450px;
+	border-bottom: 1px solid #666;	
+	padding: 5px 0px 5px 0px;
+}
+
+.merch.noborder
+{
+	border-bottom: none; 	
+}
+
+.merch.link
+{
+	cursor: pointer;
+}
+
+.merch img
+{
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+.merch .text
+{
+	float: left;
+	margin-left: 20px;
+	width: 280px;
+}
+
+.merch .buttons
+{
+	height: 30px;	
+	margin-top: 5px;
+}
+
+.merch .buttons a .button
+{
+	background-color: #CCC;
+	color: #000;
+	border-radius: 3px;
+	margin: 0px 5px 0px 0px;
+	padding: 3px 10px 3px 10px;
+	float:left;
+}
+
+.merch .buttons a:hover .button
+{
+	background-color: #8F3131;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/*-------------------CONTACT------------------*/
+label
+{
+	width: 120px;
+	display:block;
+	float:left;
+	clear: both;
+}
+
+input
+{
+	width: 200px;	
+	display:block;
+	float:left;
+}
+
+input[type="submit"]
+{
+	width: 100px;	
+	clear:both;
+	margin-top: 10px
+}

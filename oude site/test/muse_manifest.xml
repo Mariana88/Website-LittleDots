@@ -1,0 +1,61 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="master_a-master.css" crc="4258452764" ref="contact:bio:music:live:video:index:store"/>
+    <file name="contact.css" crc="4014089971" ref="contact"/>
+    <file name="bio.css" crc="3900393174" ref="bio"/>
+    <file name="music.css" crc="197371495" ref="music"/>
+    <file name="live.css" crc="3993223630" ref="live"/>
+    <file name="video.css" crc="4040778185" ref="video"/>
+    <file name="index.css" crc="3938467879" ref="index"/>
+    <file name="store.css" crc="4178758885" ref="store"/>
+  </folder>
+  <folder name="assets">
+    <file name="little-dots-cover.pdf" crc="4062392831" mt="1406658707000"/>
+    <file name="handw-music-lyrics-active.gif" crc="260724960" mt="1407248798000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:music:live:store:contact:bio:video"/>
+    <file name="museutils.js" crc="3865766194" ref="index:music:live:store:contact:bio:video"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="291134478" ref="music"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="music:live:store:contact:bio:video:index"/>
+  </folder>
+  <folder name="images">
+    <file name="site achtergrond.jpg" crc="406100759" ref="index:music:live:store:contact:bio:video"/>
+    <file name="making of small.png" crc="78285284" ref="music"/>
+    <file name="making of small2.png" crc="4278966824" ref="music"/>
+    <file name="making of small3.png" crc="78285284" ref="music"/>
+    <file name="making of small4.png" crc="174044132" ref="music"/>
+    <file name="small contact.png" crc="43606502" ref="music"/>
+    <file name="small contact2.png" crc="3929966295" ref="music"/>
+    <file name="small contact3.png" crc="43606502" ref="music"/>
+    <file name="small contact4.png" crc="4250840679" ref="music"/>
+    <file name="small music lyrics.png" crc="38033042" ref="music"/>
+    <file name="small music lyrics2.png" crc="287128963" ref="music"/>
+    <file name="small music lyrics3.png" crc="38033042" ref="music"/>
+    <file name="small music lyrics4.png" crc="311280925" ref="music"/>
+    <file name="small video.png" crc="4057325954" ref="music"/>
+    <file name="small video2.png" crc="4285929013" ref="music"/>
+    <file name="small video3.png" crc="4057325954" ref="music"/>
+    <file name="small video4.png" crc="4127757509" ref="music"/>
+    <file name="small live.png" crc="4119352845" ref="music"/>
+    <file name="small live2.png" crc="3871164352" ref="music"/>
+    <file name="small live3.png" crc="4119352845" ref="music"/>
+    <file name="small live4.png" crc="362210137" ref="music"/>
+    <file name="small store.png" crc="3832611699" ref="music"/>
+    <file name="small store2.png" crc="4162479042" ref="music"/>
+    <file name="small store3.png" crc="3832611699" ref="music"/>
+    <file name="small store4.png" crc="437438399" ref="music"/>
+    <file name="handw little dots.png" crc="110874561" ref="music"/>
+    <file name="handw little dots2.png" crc="4100846051" ref="music"/>
+    <file name="handw little dots3.png" crc="396107616" ref="music"/>
+    <file name="handw little dots4.png" crc="3949679268" ref="music"/>
+  </folder>
+  <file name="index.html" crc="4010078871" mt="1407259523503" redirect="true"/>
+  <file name="music.html" crc="3805441093" mt="1407259808911" redirect="true"/>
+  <file name="live.html" crc="3998572442" mt="1407259510864" redirect="true"/>
+  <file name="store.html" crc="4082018415" mt="1407259510869" redirect="true"/>
+  <file name="contact.html" crc="4251536185" mt="1407259510875" redirect="true"/>
+  <file name="bio.html" crc="105775635" mt="1407259510880" redirect="true"/>
+  <file name="video.html" crc="4155954533" mt="1407259510885" redirect="true"/>
+</manifest>

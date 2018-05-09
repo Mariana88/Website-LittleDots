@@ -1,0 +1,4 @@
+.dropbox-image-toolbar a:before {
+    content: url('./../../img/wpadm-logo.png');
+    /*background-image: ;*/
+}

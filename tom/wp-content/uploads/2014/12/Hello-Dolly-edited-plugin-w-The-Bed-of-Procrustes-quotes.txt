@@ -1,0 +1,80 @@
+<?php
+/**
+ * @package Hello_Dolly
+ * @version 1.6
+ */
+/*
+Plugin Name: Hello Dolly
+Plugin URI: http://wordpress.org/plugins/hello-dolly/
+Description: This is not just a plugin, it symbolizes the hope and enthusiasm of an entire generation summed up in two words sung most famously by Louis Armstrong: Hello, Dolly. When activated you will randomly see a lyric from <cite>Hello, Dolly</cite> in the upper right of your admin screen on every page.
+Author: Matt Mullenweg
+Version: 1.6
+Author URI: http://ma.tt/
+*/
+
+function hello_dolly_get_lyric() {
+	/** These are the lyrics to Hello Dolly */
+	$lyrics = "The person you are the most afraid to contradict is yourself
+An idea starts to be interesting when you get scared of taking it to its logical conclusion
+Pharmaceutical companies are better at inventing diseases that match existing drugs, rather than inventing drugs to match existing diseases
+To understand the liberating effect of asceticism, consider that losing all your fortune is much less painful than losing only half of it
+To bankrupt a fool, give him information
+Academia is to knowledge what prostitution is to love; close enough on the surface but, to the nonsucker, not exactly the same thing
+In science you need to understand the world; in business you need others to misunderstand it
+I suspect that they put Socrates to death because there is something terribly unattractive, alienating, and nonhuman in thinking with too much clarity
+Education makes the wise slightly wiser; but it makes the fool vastly more dangerous
+The test of originality for an idea is not the absence of one single predecessor, but the presence of multiple but incompatible ones
+Modernity’s double punishment is to make us both age prematurely and live longer
+An erudite is someone who displays less than he knows; a journalist and consultant, the opposite; most others fall somewhere in between
+Your brain is most intelligent when you don’t instruct it on what to do—something people who take showers discover on occasion
+If your anger decreases with time, you did injustice; if it increases, you suffered injustice
+I wonder if those who advocate generosity for its rewards notice the inconsistency, or if what they call generosity is an attractive investment strategy
+Those who think religion is about “belief” don’t understand religion, and don’t understand belief
+Work destroys your soul by stealthily invading your brain during the hours not officially spent working; be selective about professions
+In nature we never repeat the same motion. In captivity (office, gym, commute, sports), life is just repetitive stress injury. No randomness
+Using, as excuse, others’ failure of common sense is in itself a failure of common sense
+Compliance with the straightjacket of narrow (Aristotelian) logic and avoidance of fatal inconsistencies are not the same thing
+Economics cannot digest the idea that the collective (and the aggregate) are disproportionately less predictable than individuals
+Don’t talk about “progress” in terms of longevity, safety, or comfort before comparing zoo animals to those in the wilderness
+If you know, in the morning, what your day looks like with any precision, you are a little bit dead—the more precision, the more dead you are
+There is no intermediate state between ice and water but there is one between life and death: employment
+You have a calibrated life when most of what you fear has the titillating prospect of adventure
+Nobody wants to be perfectly transparent; not to others, certainly not to himself";
+
+	// Here we split it into lines
+	$lyrics = explode( "\n", $lyrics );
+
+	// And then randomly choose a line
+	return wptexturize( $lyrics[ mt_rand( 0, count( $lyrics ) - 1 ) ] );
+}
+
+// This just echoes the chosen line, we'll position it later
+function hello_dolly() {
+	$chosen = hello_dolly_get_lyric();
+	echo "<p id='dolly'>$chosen</p>";
+}
+
+// Now we set that function up to execute when the admin_notices action is called
+add_action( 'admin_notices', 'hello_dolly' );
+
+// We need some CSS to position the paragraph
+function dolly_css() {
+	// This makes sure that the positioning is also good for right-to-left languages
+	$x = is_rtl() ? 'left' : 'right';
+
+	echo "
+	<style type='text/css'>
+	#dolly {
+		float: $x;
+		padding-$x: 15px;
+		padding-top: 5px;		
+		margin: 0;
+		font-size: 11px;
+	}
+	</style>
+	";
+}
+
+add_action( 'admin_head', 'dolly_css' );
+
+?>

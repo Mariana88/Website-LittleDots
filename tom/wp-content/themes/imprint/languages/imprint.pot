@@ -1,0 +1,1374 @@
+# Copyright (C) 2015 mudThemes
+# This file is distributed under the GNU General Public License, v2 (or newer).
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint 1.2.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/imprint\n"
+"POT-Creation-Date: 2015-04-23 11:35:18+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments"
+msgstr ""
+
+#: comments.php:22
+msgid "Comments"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:32
+msgid "Older Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:33
+msgid "<span class=\"meta-nav\">&larr;</span> Newer Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Sorry, Comments are closed."
+msgstr ""
+
+#: footer.php:19
+msgid "Copyright"
+msgstr ""
+
+#: footer.php:19
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:19
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:19
+msgid "imprint theme by"
+msgstr ""
+
+#. #-#-#-#-#  imprint.pot (Imprint 1.2.8)  #-#-#-#-#
+#. Author of the plugin/theme
+#: footer.php:19
+msgid "mudThemes"
+msgstr ""
+
+#: includes/lib/core/class.core_author_template.php:47
+msgid "Author : %s"
+msgstr ""
+
+#: includes/lib/core/class.core_author_template.php:52
+#: includes/lib/core/class.core_loop_template.php:105
+#: includes/lib/core/class.core_loop_template.php:107
+msgid "%s"
+msgstr ""
+
+#: includes/lib/core/class.core_category_template.php:44
+msgid "Category : %s"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:44
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:46
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:46
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:48
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:48
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:50
+msgid "Blog Archives"
+msgstr ""
+
+#: includes/lib/core/class.core_date_template.php:55
+msgid "Archive of posts published in the specified %s"
+msgstr ""
+
+#: includes/lib/core/class.core_loop_template.php:135
+msgid "Written on"
+msgstr ""
+
+#: includes/lib/core/class.core_loop_template.php:136
+msgid "by"
+msgstr ""
+
+#: includes/lib/core/class.core_loop_template.php:137
+msgid "in"
+msgstr ""
+
+#: includes/lib/core/class.core_loop_template.php:142
+msgid "Password Protected"
+msgstr ""
+
+#: includes/lib/core/class.core_loop_template.php:197
+#: includes/lib/core/class.core_post_template.php:133 page.php:26
+msgid "Pages:"
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:70
+msgid ""
+"<span class=\"meta-author-url\">Posted By</span> %1$s<span class=\"meta-date-"
+"url\">, On %2$s </span>"
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:73
+#: includes/lib/core/core_functions.php:160
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:170
+msgctxt "Previous post link"
+msgid "&rarr;"
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:173
+msgctxt "Next post link"
+msgid "&larr;"
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:206
+msgid "Tags: "
+msgstr ""
+
+#: includes/lib/core/class.core_post_template.php:222
+msgid "edit post"
+msgstr ""
+
+#: includes/lib/core/class.core_tag_template.php:41
+msgid "Tag : %s"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:58
+msgid "Ooops! Nothing Found"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:60
+#: includes/lib/core/core_functions.php:62
+msgid "Nothing found for: %s"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:69
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+
+#: includes/lib/core/core_functions.php:91
+#: includes/lib/extend/mod.pagination.php:29
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:92
+#: includes/lib/extend/mod.pagination.php:30
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:154
+msgid ""
+"<span class=\"meta-date-url\">Posted on</span> %1$s<span class=\"meta-author-"
+"url\">, By %2$s </span>"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:216
+msgid "Day"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:218
+msgid "Month"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:220
+msgid "Year"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:222
+msgid "Period"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:243
+msgctxt "widgets"
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:289
+msgid "Page %s"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:317
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:318
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/lib/core/core_functions.php:319
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:327
+#: includes/lib/core/core_functions.php:339
+#: includes/lib/core/core_functions.php:349
+msgid "(Edit)"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:339
+msgid "Pingback:"
+msgstr ""
+
+#: includes/lib/core/core_functions.php:349
+msgid "Trackback:"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:180
+msgid "Imprint Theme - Settings"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:180
+#: includes/lib/core/options-framework/options-framework.php:387
+msgid "Theme Options"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:286
+msgid "<i class=\"mdf mdf-undo\"></i> Options reset"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:336
+msgid "<i class=\"mdf mdf-check\"></i> Options saved"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:446
+msgid ""
+"<i class=\"mdf mdf-quote-left\"></i> Upgrade to Imprint Pro Version <i class="
+"\"mdf mdf-quote-right\"></i> and get 5 premium skins with 500+ Google Fonts, "
+"full-width layout, extra color options and much more."
+msgstr ""
+
+#: includes/lib/core/options-framework/options-framework.php:473
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:66
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:120
+msgid "Upload"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:68
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:121
+msgid "Remove"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: includes/lib/core/options-framework/options-medialibrary-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:242
+msgid "repeat"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:243
+msgid "No Repeat"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:244
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:245
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:246
+msgid "Repeat All"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:259
+msgid "top left"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:260
+msgid "Top Left"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:261
+msgid "Top Center"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:262
+msgid "Top Right"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:263
+msgid "Middle Left"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:264
+msgid "Middle Center"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:265
+msgid "Middle Right"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:266
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:267
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:268
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:281
+msgid "fixed"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:282
+msgid "Scroll Normally"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:283
+msgid "Fixed in Place"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:357
+msgid "Normal"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:358
+msgid "Italic"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:359
+msgid "Bold"
+msgstr ""
+
+#: includes/lib/core/options-framework/options-sanitize.php:360
+msgid "Bold Italic"
+msgstr ""
+
+#: includes/lib/extend/mod.custom_header.php:31
+msgid "Manhattan from Top"
+msgstr ""
+
+#: includes/lib/extend/mod.custom_header.php:36
+msgid "Imprint with Instructions"
+msgstr ""
+
+#: includes/lib/extend/mod.custom_header.php:41
+msgid "Black and White Leaves"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:51
+msgid "Basic Settings"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:55
+msgid "Choose Theme Skin"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:56
+msgid ""
+"Select skin for your theme. (Note: Premium skins are only available with "
+"Imprint Pro Version)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:65
+msgid "Theme Layout Type"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:81
+msgid "Favicon Image:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:82
+msgid ""
+"Put the Favicon Icon image here. <a href=\"http://webdesign.about.com/od/"
+"favicon/f/blfaqfavicon1.htm\" target=\"_blank\"><i>What is Favicon?</i></a> "
+"<i class=\"fa fa-external-link valign-bottom font-11\"></i>"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:88
+msgid "Organization Name:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:89
+msgid ""
+"This name will be displayed along with <strong>copyright information in the "
+"footer.</strong> (Can be either your company name or website name, <i>e.g.</"
+"i> : Example Inc or example.com)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:95
+msgid "Body Font"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:103
+msgid "Wrapper Background Color:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:104
+msgid "Changes the background color of wrapper (main content area)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:110
+msgid "Wrapper Border Color:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:111
+msgid "Changes the border color of wrapper (main content area)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:121
+msgid "Theme Layout"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:142
+msgid "Footerbox Columns"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:153
+msgid "Disable Thumbnails:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:154
+msgid ""
+"Checking this will disable Thumbnail images on homepage and archive pages."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:160
+msgid "Disable Excerpts:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:161
+msgid ""
+"Checking this will disable Excerpts and show full content on homepage and "
+"archive pages."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:167
+msgid "Hide Footerbox:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:174
+msgid "Toggle Menu"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:186
+msgid "Hide Top Margin:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:187
+msgid "Checking this will hide top margin."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:193
+msgid "Hide Bottom Margin:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:194
+msgid "Checking this will hide bottom margin."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:200
+msgid "Hide Slideshow Margin:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:201
+msgid "Checking this will hide Slideshow margin."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:207
+msgid "Hide Margin Below Posts:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:208
+msgid ""
+"Checking this will hide margin below posts on Homepage and Archive Pages."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:214
+msgid "Disable Tags:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:215
+msgid "Checking this will hide Tag links below posts."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:225
+msgid "Header Settings"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:229
+#: includes/lib/extend/mod.options.php:714
+msgid "Site Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:230
+msgid "Color of the Site Title (displayed at the top)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:236
+#: includes/lib/extend/mod.options.php:722
+msgid "Site Description:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:237
+msgid "Color of the Site Description (displayed below site title)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:243
+msgid "Logo:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:244
+msgid "Upload your Logo Image - PNG or JPEG file formats are recommended."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:250
+msgid "Disable Logo Image:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:251
+msgid "Checking this will display Site Title (text) rather than Image."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:257
+msgid "Hide Site Description:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:258
+msgid "Checking this will hide Site Description."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:268
+msgid "3 Featured Boxes"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:272
+msgid "Hide Featured Boxes:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:273
+msgid ""
+"Checking this will hide the '3 featured boxes' throughout the website. (This "
+"is a global setting and will override others)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:279
+msgid "Homepage Only:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:280
+msgid ""
+"Checking this will show '3 featured boxes' only on homepage and not anywhere "
+"else."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:286
+msgid "Featured Box #1 Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:287
+msgid "This will be the title of the 1st column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:293
+msgid "Featured Box #1 Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:294
+msgid "This will be the content of the 1st column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:300
+msgid "Featured Box #1 Icon:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:301
+msgid "This will be the icon of the 1st column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:308
+msgid "Featured Box #2 Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:309
+msgid "This will be the title of the 2nd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:315
+msgid "Featured Box #2 Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:316
+msgid "This will be the Content of the 2nd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:322
+msgid "Featured Box #2 Icon:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:323
+msgid "This will be the icon of the 2nd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:330
+msgid "Featured Box #3 Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:331
+msgid "This will be the title of the 3rd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:337
+msgid "Featured Box #3 Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:338
+msgid "This will be the content of the 3rd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:344
+msgid "Featured Box #3 Icon:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:345
+msgid "This will be the icon of the 3rd column in Featured Area."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:356
+msgid "Menu Styling"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:360
+msgid "Bottom Menu: <br />(text color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:361
+msgid "Color of bottom menu text."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:367
+msgid "Bottom Menu: <br />(mouse hover)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:368
+msgid "Color of bottom menu (mouse hover)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:380
+msgid "Social Options"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:384
+msgid "Hide Social Icons:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:385
+msgid "Checking this will hide social icons."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:391
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:392
+msgid "RSS feed url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:398
+msgid "Facebook Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:399
+msgid ""
+"Facebook profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:405
+msgid "Twitter Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:406
+msgid ""
+"Twitter profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:412
+msgid "Linkedin Profile URL: "
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:413
+msgid ""
+"Linkedin profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:419
+msgid "YouTube Channel URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:420
+msgid ""
+"YouTube channel url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:426
+msgid "Google+ Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:427
+msgid ""
+"Google+ profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:433
+msgid "Pinterest Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:434
+msgid ""
+"Pinterest profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:440
+msgid "Tumblr Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:441
+msgid ""
+"Tumblr profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:447
+msgid "Skype Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:448
+msgid ""
+"Skype profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:454
+msgid "Flickr Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:455
+msgid ""
+"Flickr profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:461
+msgid "Instagram Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:462
+msgid ""
+"Instagram profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:468
+msgid "Dribbble Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:469
+msgid ""
+"Dribbble profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:475
+msgid "Github Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:476
+msgid ""
+"Github profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:482
+msgid "Bitbucket Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:483
+msgid ""
+"Bitbucket profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:489
+msgid "Stack Overflow Profile URL:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:490
+msgid ""
+"Stack Overflow profile url (include http:// or https:// in the beginning of "
+"the URL)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:498
+msgid "Color Options"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:502
+#: includes/lib/extend/mod.options.php:770
+msgid "Primary Sidebar Links:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:503
+msgid "Color of links that appear in primary sidebar."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:509
+msgid "Footerbox Sidebar Link:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:510
+msgid "Color of links that appear in footerbox."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:516
+msgid "Theme Links:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:517
+msgid "Color of all the links in your theme (globally)."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:523
+msgid "Theme Links: <br /> (mouse hover)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:524
+msgid "Theme link color - when mouse hovers upon it."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:530
+msgid "Theme Links: <br />(visited)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:531
+msgid "Theme link color which have been visited before."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:537
+msgid "Sticky Post:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:538
+msgid "Sticky Post Background Color"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:544
+msgid "Read more [button] <br />(text color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:551
+msgid "Read more [button]: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:552
+msgid "Changes the background color of \"read more\" button."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:558
+msgid "Read more [button] <br />(border color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:559
+msgid ""
+"Changes the color of shadow which appears at the sides of the box containing "
+"the \"read more\" button."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:565
+#: includes/lib/extend/mod.options.php:730
+msgid "Homepage Post Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:566
+msgid "Homepage Post Title Color"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:572
+#: includes/lib/extend/mod.options.php:738
+msgid "Homepage Post Meta:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:573
+msgid "Homepage Post Meta Color"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:579
+#: includes/lib/extend/mod.options.php:746
+msgid "Homepage Post Excerpt:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:580
+msgid "Homepage Post Excerpt Color"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:586
+msgid "Homepage Thumbnail: <br /> (border color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:587
+msgid "Homepage Thumbnail Border Color"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:593
+msgid "Homepage Divider:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:594
+msgid "Color of the line that divides each post on the homepage."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:600
+#: includes/lib/extend/mod.options.php:818
+msgid "Single Post Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:601
+msgid "Color of single posts and pages - Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:607
+msgid "single Post Meta:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:608
+msgid "Color of single posts and pages - Meta Text."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:614
+#: includes/lib/extend/mod.options.php:834
+msgid "Single Post Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:615
+msgid "Color of single posts and pages - Content."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:621
+msgid "Heading Tag:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:622
+msgid ""
+"Color of heading HTML tags {h1, h2, h3, h4, h5, h6} that appear inside a "
+"single post or page."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:628
+msgid "PRE Tag: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:629
+msgid ""
+"Background Color of {pre} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:635
+msgid "PRE Tag: <br />(text color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:636
+msgid "Text Color of {pre} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:642
+msgid "HR Tag: <br />(color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:643
+msgid "Color of {hr} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:649
+msgid "Tag Links:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:650
+msgid "Color of Tag Links that appear at the bottom of a single post."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:656
+msgid "Post Navigation: <br />(text color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:657
+msgid "Color of 2 post navigation links that appear below a single post."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:663
+msgid "Image Caption: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:664
+msgid "Background color of Image Captions."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:670
+msgid "Image Caption: <br />(text color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:671
+msgid "Color of Image Captions"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:677
+msgid "Footer Box Widget Title: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:678
+msgid "Changes the background image or color of the Footerbox widget's title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:684
+msgid "Footer Box Widget Body: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:685
+msgid "Changes the background image or color of the Footerbox widget's body."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:691
+msgid "Widgets Title: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:692
+msgid ""
+"Changes the background image or color of the Primary sidebar's widget title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:698
+msgid "Widgets Body: <br />(background color)"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:699
+msgid ""
+"Changes the background image or color of the Primary sidebar's widget body."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:710
+msgid "Fonts Types"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:715
+msgid "Font Type for Site Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:723
+msgid "Font Type for Site Description."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:731
+msgid "Font Type for Homepage Post's Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:739
+msgid "Font Type for Homepage Post's Meta."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:747
+msgid "Font Type for Homepage Post's Excerpt."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:754
+msgid "Read more [button]:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:755
+msgid "Font Type for \"read more\" [button]."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:762
+msgid "Primary Sidebar Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:763
+msgid "Font Type for Primary Sidebar Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:771
+msgid "Font Type for Primary Sidebar Links."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:778
+msgid "Primary Sidebar Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:779
+msgid "Font Type for Primary Sidebar Content."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:786
+msgid "Footerbox Widget Title:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:787
+msgid "Font Type for Footerbox Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:794
+msgid "Footerbox Widget Content:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:795
+msgid "Font Type for Footerbox Widget Content."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:802
+msgid "Footerbox Links:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:803
+msgid "Font Type for Footerbox Links."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:810
+msgid "Footer Text:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:811
+msgid "Font Type for Footer Text."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:819
+msgid "Font Type for Single Post or Page Title."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:826
+msgid "Single Post Meta:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:827
+msgid "Font Type for Single Post or Page Meta."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:835
+msgid "Font Type for Single Post or Page Content."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:842
+msgid "PRE Tag:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:843
+msgid "Font Type for {pre} HTML Tag."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:850
+msgid "Single Post List:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:851
+msgid "Font Type for List {li HTML Tag} on Single Post or Page."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:858
+msgid "Single Post Headings:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:859
+msgid "Font Type for Post or Page Headings. {H1, H2, H3, H4, H5, H6 Tags}"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:920
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:928
+msgid "Custom CSS Styles:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:929
+msgid ""
+"<strong>Important:</strong> Use this section only if you are well versed "
+"with CSS styling. Any bad input here can ruin the entire look of your theme. "
+"You can put your custom CSS styles here. It is recommended that you use this "
+"section rather than editing <i>style.css</i> directly. "
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:945
+msgid "Slideshow"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:949
+msgid "Toggle Carousel"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:950
+msgid "Type of Carousel"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:957
+msgid "Carousel Location"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:958
+msgid "Choose where to display carousel."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:965
+msgid "Slideshow Speed"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:966
+msgid "Speed of slideshow"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:972
+msgid "Slideshow Animation Speed"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:973
+msgid "Speed of slideshow animation"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:979
+msgid "Hide Navigation:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:980
+msgid "Hide left and right navigation"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:985
+msgid "Smooth Height:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:986
+msgid "Disable Smooth Height."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:992
+msgid "Animation Type"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:993
+msgid "Slideshow animation type."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:999
+msgid "Slideshow Direction"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:1000
+msgid "Slideshow Direction."
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:1007
+msgid "Slideshow Image 1:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:1008
+msgid "First Slideshow Image"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:1014
+msgid "Slideshow Image 2:"
+msgstr ""
+
+#: includes/lib/extend/mod.options.php:1015
+msgid "Second Slideshow Image"
+msgstr ""
+
+#: page.php:30
+msgid "Edit"
+msgstr ""
+
+#: search.php:23
+msgid " Search Result for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search:"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search the site..."
+msgstr ""
+
+#: searchform.php:13
+msgid "Go"
+msgstr ""
+
+#: sidebar.php:17 sidebar.php:57
+msgid "Recent Posts"
+msgstr ""
+
+#: sidebar.php:23 sidebar.php:63
+msgid "Recent Comments"
+msgstr ""
+
+#: sidebar.php:28 sidebar.php:68
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:33 sidebar.php:73
+msgid "Tags"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Imprint"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.mudthemes.com/showcase/imprint/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A customizable, colourable & multipurpose theme with fixed and responsive "
+"layouts. Have tonnes of fonts, colors & layout options with slider and "
+"social icons. Clean and neat theme, best for magazine,  personal & corporate "
+"blogs. Includes fully configurable slideshow running on flexslider plugin. "
+"Upto 6 sidebars, can be customized & coloured easily. Easy navigation with 2 "
+"menus (top and bottom). Beautifully portrays full width content without any "
+"sidebar or add either left sidebar or right sidebar easily. Proudly display "
+"your social profiles (facebook, twitter, linkedin, pinterest, tumblr, "
+"youtube, skype, flickr, google plus) and RSS feed icon. Adjusts flexibly "
+"across devices like iPad, iPhone, Android or others with various resolutions "
+"whether low or HD. Other features include custom CSS, featured image, "
+"thumbnails, web safe fonts, footer box, translation ready and others. Very "
+"strongly codes, uses hooks in most places, comes with 100% GPL license, "
+"dedicated support team, and online documentation."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mudthemes.com"
+msgstr ""

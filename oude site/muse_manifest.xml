@@ -1,0 +1,16 @@
+<manifest alg="2" build="314" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="index.css" crc="272658025" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index"/>
+    <file name="museutils.js" crc="3865766194" ref="index"/>
+    <file name="jquery.watch.js" crc="4068933136" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="u71-7.png" crc="237714301" ref="index"/>
+    <file name="artworks-000082882741-b7p6xy-t500x500.jpg" crc="55472089" ref="index"/>
+  </folder>
+  <file name="index.html" crc="223853719" mt="1404157161390" redirect="true"/>
+</manifest>

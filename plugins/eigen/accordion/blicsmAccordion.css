@@ -1,0 +1,38 @@
+.accordion
+{
+}
+
+.accordion > .header
+{
+	height: 30px;
+	font-size: 20px;
+	color: #186685;
+	line-height: 30px;
+	background-color: #DDDDDD;
+	padding-left: 8px;
+	border-radius: 2px;
+	margin-right: 4px;
+	cursor: pointer;
+	border: 1px solid #CCCCCC;
+}
+
+.accordion > .header.open
+{
+	/*background-color: #FBCC33;*/
+	color: #FE0649;
+}
+
+.accordion > .header:hover
+{
+	color: #FE0649;
+}
+
+.accordion > .content
+{
+	
+}
+
+.accordion > .content > .scroll
+{
+	border: 1px solid #DDDDDD;
+}
